@@ -18,5 +18,5 @@ function currentTime(el) {
 
 const savedSeconds = localStorage.getItem(STORAGE_KEY);
 if (savedSeconds) {
-  player.setCurrentTime(localStorage.getItem(STORAGE_KEY));
+  player.setCurrentTime(savedSeconds);
 }
